@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f4546f9-f3c0-4397-bd4c-73da80a00c3e" name="Changes" comment="" />
+    <list default="true" id="8f4546f9-f3c0-4397-bd4c-73da80a00c3e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/mi-app/src/Components/atoms/TituloSeccion.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi-app/src/Components/organisms/CardPerfil.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi-app/src/Components/organisms/ContactoSeccion.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi-app/src/Components/organisms/EstudiosSeccion.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi-app/src/Components/organisms/ExperienciaSeccion.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi-app/src/Components/organisms/Navbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi-app/src/Components/organisms/ProyectosSeccion.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi-app/src/assets/imagen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi-app/src/hooks/usePortafolio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi-app/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/mi-app/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi-app/src/assets/hero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi-app/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi-app/src/assets/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi-app/src/data/portafolioData.js" beforeDir="false" afterPath="$PROJECT_DIR$/mi-app/src/data/portafolioData.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,16 +27,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="JSX File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3KlGViFbiYIOgpUpSBoC2y9w4fz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,15 +53,24 @@
     "git-widget-placeholder": "Rama__Inicio",
     "ignore.virus.scanning.warn.message": "true",
     "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "C:/Users/nicol/OneDrive/Documentos/GitHub/Parcial_2_Portafolio",
+    "last_opened_file_path": "C:/Users/nicol/OneDrive/Documentos/GitHub/Parcial_2_Portafolio/mi-app/src/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2026.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nicol\OneDrive\Documentos\GitHub\Parcial_2_Portafolio\mi-app\src\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nicol\OneDrive\Documentos\GitHub\Parcial_2_Portafolio\mi-app\src\Components\atoms" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -60,6 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1792124772176</updated>
       <workItem from="1792124772455" duration="2420000" />
+      <workItem from="1792179613344" duration="9245000" />
     </task>
     <servers />
   </component>
@@ -67,6 +94,11 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="a7e979e7-dcce-4a06-9e6a-87eea7e60aea" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -84,6 +116,11 @@
                 </map>
               </option>
             </State>
+          </value>
+        </entry>
+        <entry key="a7e979e7-dcce-4a06-9e6a-87eea7e60aea">
+          <value>
+            <State />
           </value>
         </entry>
       </map>
