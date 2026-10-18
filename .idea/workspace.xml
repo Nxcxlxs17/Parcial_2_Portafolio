@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f4546f9-f3c0-4397-bd4c-73da80a00c3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mi-app/src/Components/atoms/TituloSeccion.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mi-app/src/Components/organisms/CardPerfil.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mi-app/src/Components/organisms/ContactoSeccion.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mi-app/src/Components/organisms/EstudiosSeccion.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mi-app/src/Components/organisms/ExperienciaSeccion.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mi-app/src/Components/organisms/Navbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mi-app/src/Components/organisms/ProyectosSeccion.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mi-app/src/assets/imagen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mi-app/src/hooks/usePortafolio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi-app/src/hooks/usePortafolio.test.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi-app/src/setupTest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi-app/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/mi-app/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi-app/src/assets/hero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi-app/src/assets/react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi-app/src/assets/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi-app/src/data/portafolioData.js" beforeDir="false" afterPath="$PROJECT_DIR$/mi-app/src/data/portafolioData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/mi-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mi-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi-app/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/mi-app/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,26 +35,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "Rama__Inicio",
-    "ignore.virus.scanning.warn.message": "true",
-    "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "C:/Users/nicol/OneDrive/Documentos/GitHub/Parcial_2_Portafolio/mi-app/src/assets",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2026.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Rama__Inicio&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nicol/OneDrive/Documentos/GitHub/Parcial_2_Portafolio/mi-app/src/assets&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2026.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\nicol\OneDrive\Documentos\GitHub\Parcial_2_Portafolio\mi-app\src\assets" />
@@ -86,7 +78,10 @@
       <option name="presentableId" value="Default" />
       <updated>1792124772176</updated>
       <workItem from="1792124772455" duration="2420000" />
-      <workItem from="1792179613344" duration="9245000" />
+      <workItem from="1792179613344" duration="9276000" />
+      <workItem from="1792191045518" duration="112000" />
+      <workItem from="1792289748157" duration="1952000" />
+      <workItem from="1792350228340" duration="2315000" />
     </task>
     <servers />
   </component>
