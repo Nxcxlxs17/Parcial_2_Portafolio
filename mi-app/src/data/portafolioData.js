@@ -3,7 +3,7 @@ import imagen from "../assets/imagen.png";
 export const personalData = {
     nombre: "Nicolas Sobarzo",
     titulo: "Desarrollador Front-End ",
-    descripcion: 'vrff',
+    descripcion: '"Estudiante de Analista Programador en Duoc UC y desarrollador Front-End. Destaco por mi responsabilidad, puntualidad y capacidad para trabajar en equipo."',
     avatar: imagen
 };
 
@@ -64,3 +64,4 @@ export const redesData = {
     github:'',
     email:'nico.sobarzo@duocuc.cl'
 };
+

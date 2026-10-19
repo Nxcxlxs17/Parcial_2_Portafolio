@@ -12,14 +12,13 @@ const { Content, Footer } = Layout;
 
 function App() {
     const { data } = usePortafolio();
-    const currentYear = new Date().getFullYear();
-
+    const anioFooter = new Date().getFullYear();
 
     return (
-        <Layout style={{ minHeight: '100vh', backgroundColor: '#f0f2f5' }}>
-            <Navbar />
+        <Layout style={{ minHeight: '100vh', backgroundColor: '#f1f5f9', borderRadius: 8 }}>
+            <Navbar style={{ backgroundColor: '#0f172a' }} />
 
-            <Content style={{ padding: '20px 0' }}>
+            <Content style={{ padding: '40px 16px' }}>
                 <CardPerfil personal={data?.personal} social={data?.social} />
                 <ExperienciaSeccion profesional={data?.profesional} />
                 <EstudiosSeccion estudios={data?.estudios} />
@@ -27,8 +26,8 @@ function App() {
                 <ContactoSeccion />
             </Content>
 
-            <Footer style={{ textAlign: 'center', backgroundColor: '#001529', color: '#ffffff' }}>
-                © {currentYear} {data?.personal?.nombre || 'Mi Portafolio'} - Todos los derechos reservados.
+            <Footer style={{ textAlign: 'center', backgroundColor: '0f172a', color: '#ffffff' }}>
+                © {anioFooter} {data?.personal?.nombre || 'Mi Portafolio'} - Todos los derechos reservados.
             </Footer>
         </Layout>
     );

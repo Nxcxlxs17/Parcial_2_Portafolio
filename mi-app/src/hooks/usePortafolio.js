@@ -5,7 +5,7 @@ import {
     estudiosData,
     proyectosData,
     redesData,
-} from '../data/portafolioData';
+} from '../Data/portafolioData';
 
 export const usePortafolio = () => {
     const [data, setData] = useState({
@@ -17,6 +17,7 @@ export const usePortafolio = () => {
     });
 
     useEffect(() => {
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setData({
             personal: personalData,
             profesional: profesionalData,
@@ -26,5 +27,5 @@ export const usePortafolio = () => {
         });
     }, []);
 
-    return { data };
+    return { data, setData};
 };
