@@ -1,7 +1,7 @@
 import { Layout } from 'antd';
 import { usePortafolio } from './hooks/usePortafolio.js';
-import Navbar from './Components/organisms/Navbar';
-import CardPerfil from './Components/organisms/CardPerfil';
+import Navbar from './Components/organisms/Navbar.jsx';
+import CardPerfil from './Components/organisms/CardPerfil.jsx';
 import './App.css';
 import ExperienciaSeccion from "./Components/organisms/ExperienciaSeccion.jsx";
 import EstudiosSeccion from "./Components/organisms/EstudiosSeccion.jsx";

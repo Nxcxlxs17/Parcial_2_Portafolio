@@ -1,6 +1,6 @@
 import {renderHook} from '@testing-library/react';
 import {describe, it, expect} from "vitest";
-import {usePortafolio} from '../../src/hooks/usePortafolio';
+import {usePortafolio} from './usePortafolio.js';
 import {estudiosData, personalData, profesionalData, proyectosData, redesData} from "../data/portafolioData.js";
 
 

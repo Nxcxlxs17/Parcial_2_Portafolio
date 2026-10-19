@@ -1,6 +1,6 @@
 import { Card, Row, Col, Typography, Button, Space } from 'antd';
 import { LinkedinOutlined, GithubOutlined, MailOutlined } from '@ant-design/icons';
-import UsuarioAvatar from '../atoms/UsuarioAvatar';
+import UsuarioAvatar from '../atoms/UsuarioAvatar.jsx';
 
 const { Title, Paragraph, Text } = Typography;
 

@@ -5,7 +5,7 @@ import {
     estudiosData,
     proyectosData,
     redesData,
-} from '../Data/portafolioData';
+} from '../data/portafolioData.js';
 
 export const usePortafolio = () => {
     const [data, setData] = useState({

@@ -1,6 +1,6 @@
 import { Row, Col, Card, Typography } from 'antd';
 import { ReadOutlined } from '@ant-design/icons';
-import TituloSeccion from '../atoms/TituloSeccion';
+import TituloSeccion from '../atoms/TituloSeccion.jsx';
 
 const { Title, Text } = Typography;
 

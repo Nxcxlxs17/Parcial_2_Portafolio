@@ -1,6 +1,6 @@
 import { Row, Col, Card, Tag, Button, Typography, Space } from 'antd';
 import { CodeOutlined, GithubOutlined, EyeOutlined } from '@ant-design/icons';
-import TituloSeccion from '../atoms/TituloSeccion';
+import TituloSeccion from '../atoms/TituloSeccion.jsx';
 
 const { Title, Paragraph } = Typography;
 

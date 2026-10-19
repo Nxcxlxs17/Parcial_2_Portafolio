@@ -1,6 +1,6 @@
 import { Card, Timeline, Typography } from 'antd';
 import { SolutionOutlined } from '@ant-design/icons';
-import TituloSeccion from '../atoms/TituloSeccion';
+import TituloSeccion from '../atoms/TituloSeccion.jsx';
 
 const { Text, Paragraph, Title } = Typography;
 
