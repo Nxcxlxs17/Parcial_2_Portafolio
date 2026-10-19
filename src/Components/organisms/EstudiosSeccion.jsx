@@ -17,13 +17,13 @@ const EstudiosSeccion = ({ estudios = [] }) => {
                             style={{
                                 height: '100%',
                                 borderRadius: '16px',
-                                boxShadow: '0 4px 16px rgba(0,0,0,0.06)',
+                                boxShadow: '0 4px 16px rgba(22, 119, 255, 0.10)',
                                 display: 'flex',
                                 flexDirection: 'column',
                                 justifyContent: 'center',
                             }}
                         >
-                            <Title level={4} style={{ marginBottom: '8px', color: '#1677ff' }}>
+                            <Title level={4} style={{ marginBottom: '8px', color: '#1677FF' }}>
                                 {item.titulo}
                             </Title>
                             <Text type="secondary" strong style={{ display: 'block', marginBottom: '4px' }}>

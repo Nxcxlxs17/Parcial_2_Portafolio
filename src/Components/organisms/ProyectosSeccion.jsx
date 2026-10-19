@@ -38,10 +38,10 @@ const ProyectosSeccion = ({ proyectos = [] }) => {
                             }
                         >
                             <div style={{ flex: 1 }}>
-                                <Title level={4} style={{ marginBottom: '8px' }}>
+                                <Title level={4} style={{ marginBottom: '8px', color: '#1677FF' }}>
                                     {proyecto.titulo}
                                 </Title>
-                                <Paragraph type="secondary" style={{ marginBottom: '16px' }}>
+                                <Paragraph type="secondary" style={{ marginBottom: '16px', color:'#647488' }}>
                                     {proyecto.descripcion}
                                 </Paragraph>
 
@@ -53,7 +53,7 @@ const ProyectosSeccion = ({ proyectos = [] }) => {
                                                 ? proyecto.tags.split(',')
                                                     : []
                                         ).map((tag, index) => (
-                                            <Tag color="blue" key={index} style={{ marginBottom: '4px' }}>
+                                            <Tag color="geekblue" key={index} style={{ marginBottom: '4px' }}>
                                                 {tag.trim()}
                                             </Tag>
                                         ))}

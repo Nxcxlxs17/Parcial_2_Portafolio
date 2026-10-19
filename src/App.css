@@ -182,3 +182,31 @@
     border-right-color: var(--border);
   }
 }
+
+
+/* Navbar */
+.navbar {
+    border-bottom: 2px solid #1677FF;
+}
+
+/* Texto de las opciones */
+.navbar-menu .ant-menu-item {
+    color: #D6E4FF !important;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+.navbar-menu .ant-menu-item:hover {
+    color: #36CFC9 !important;
+}
+
+/* Subrayado turquesa */
+.navbar-menu .ant-menu-item::after {
+    border-bottom: 2px solid transparent !important;
+}
+
+.navbar-menu .ant-menu-item:hover::after {
+    border-bottom-color: #36CFC9 !important;
+}

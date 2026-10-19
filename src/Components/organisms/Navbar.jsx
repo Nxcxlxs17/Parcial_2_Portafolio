@@ -19,7 +19,7 @@ const Navbar = () => {
     };
 
     return (
-        <Header style={{ display: 'flex', alignItems: 'center', backgroundColor: '#001529' }}>
+        <Header className="navbar" style={{ display: 'flex', alignItems:'center' ,justifyContent: 'center', backgroundColor: '#001529' }}>
             <div
                 style={{
                     color: '#ffffff',
@@ -30,15 +30,15 @@ const Navbar = () => {
                 }}
                 onClick={() => handleScroll({ key: 'personal' })}
             >
-                MiPortafolio
             </div>
 
             <Menu
+                className='navbar-menu'
                 theme="dark"
                 mode="horizontal"
                 items={menuItems}
                 onClick={handleScroll}
-                style={{ flex: 1, minWidth: 0 }}
+                style={{ flex:1, minWidth: 0, display:'flex', justifyContent:'center'}}
             />
         </Header>
     );

@@ -12,11 +12,27 @@ export const personalData = {
 export const profesionalData = [
     {
         id:1,
-        empresa: 'Desarrollador Full Stack ',
-        cargo: 'Sin Experiencia',
-        fechaInicio: '',
-        fechaTermino: '',
-        descripcion:''
+        empresa: 'LQV ',
+        cargo: 'Operario de Bodega',
+        fechaInicio: 'Junio 2025',
+        fechaTermino: 'Julio 2025',
+        descripcion:'Picker'
+    },
+    {
+        id:2,
+        empresa: 'Avymaq ',
+        cargo: 'Vendedor Online',
+        fechaInicio: 'Marzo 2025',
+        fechaTermino: 'Presente',
+        descripcion:'Vender productos del hogat en marketplace'
+    },
+    {
+        id:3,
+        empresa: 'Minimarket',
+        cargo: 'Cajero',
+        fechaInicio: 'Agosto 2025',
+        fechaTermino: 'Diciembre 2025',
+        descripcion:'Cajero en un Minimarket'
     }
 ]
 

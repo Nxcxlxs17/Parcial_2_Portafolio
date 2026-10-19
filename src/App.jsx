@@ -15,8 +15,8 @@ function App() {
     const anioFooter = new Date().getFullYear();
 
     return (
-        <Layout style={{ minHeight: '100vh', backgroundColor: '#f1f5f9', borderRadius: 8 }}>
-            <Navbar style={{ backgroundColor: '#0f172a' }} />
+        <Layout style={{ minHeight: '100vh', backgroundColor: '#E2E8F0', borderRadius: 8 }}>
+            <Navbar style={{ backgroundColor: '#001529' }} />
 
             <Content style={{ padding: '40px 16px' }}>
                 <CardPerfil personal={data?.personal} social={data?.social} />
@@ -26,7 +26,7 @@ function App() {
                 <ContactoSeccion />
             </Content>
 
-            <Footer style={{ textAlign: 'center', backgroundColor: '0f172a', color: '#ffffff' }}>
+            <Footer style={{ textAlign: 'center', backgroundColor: '#001529' }}>
                 © {anioFooter} {data?.personal?.nombre || 'Mi Portafolio'} - Todos los derechos reservados.
             </Footer>
         </Layout>

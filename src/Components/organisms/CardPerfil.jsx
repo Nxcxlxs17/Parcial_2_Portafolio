@@ -49,6 +49,7 @@ const CardPerfil = ({ personal, social }) => {
                                     href={social?.linkedin || "#"}
                                     target="_blank"
                                     rel="noopener noreferrer"
+                                    style={{borderColor: '#1677FF'}}
                                 >
                                     LinkedIn
                                 </Button>
@@ -59,6 +60,7 @@ const CardPerfil = ({ personal, social }) => {
                                     href={social?.github || "#"}
                                     target="_blank"
                                     rel="noopener noreferrer"
+                                    style={{borderColor: '#1677FF', color: '#1677FF'}}
                                 >
                                     GitHub
                                 </Button>
@@ -67,6 +69,7 @@ const CardPerfil = ({ personal, social }) => {
                                     type="dashed"
                                     icon={<MailOutlined />}
                                     size="large"
+                                    style={{backgroundColor: '#69B1FF'}}
                                     onClick={() => {
                                         document.getElementById('contacto')?.scrollIntoView({ behavior: 'smooth' });
                                     }}
