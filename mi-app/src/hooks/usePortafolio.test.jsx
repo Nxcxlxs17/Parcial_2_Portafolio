@@ -1,11 +1,11 @@
 import {renderHook} from '@testing-library/react';
 import {describe, it, expect} from "vitest";
-import {usePortafolio} from './hooks/usePortafolio';
+import {usePortafolio} from '../../src/hooks/usePortafolio';
 import {estudiosData, personalData, profesionalData, proyectosData, redesData} from "../data/portafolioData.js";
 
 
 describe('Probar el usePortafolio', () => {
-    it('debe retornar eñ estado inicial con los datos del portafolio', () => {
+    it('debe cargar los datos del portafolio', () => {
 
         const {result} = renderHook(() => usePortafolio());
 

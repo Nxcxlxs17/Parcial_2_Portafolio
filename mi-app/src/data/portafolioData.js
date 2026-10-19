@@ -1,19 +1,21 @@
-import imagen from "../assets/imagen.png";
+import imagen from "../assets/computer-user.png";
+import imagen_avy from "../assets/imagen_avy.jpg";
+import logoPUMBA3 from "../assets/logoPUMBA3.png";
 
 export const personalData = {
     nombre: "Nicolas Sobarzo",
-    titulo: "Desarrollador Front-End ",
-    descripcion: '"Estudiante de Analista Programador en Duoc UC y desarrollador Front-End. Destaco por mi responsabilidad, puntualidad y capacidad para trabajar en equipo."',
+    titulo: "Desarrollador Full Stack ",
+    descripcion: 'Estudiante de Analista Programador en Duoc UC y desarrollador Front-End y Back-End. Destaco por mi responsabilidad, puntualidad y capacidad para trabajar en equipo.',
     avatar: imagen
 };
 
 export const profesionalData = [
     {
         id:1,
-        empresa: 'a',
-        cargo: 'Desarrollador Back-End ',
-        fechaInicio: 'Marzo 2025',
-        fechaTermino: 'Noviembre 2025',
+        empresa: 'Desarrollador Full Stack ',
+        cargo: 'Sin Experiencia',
+        fechaInicio: '',
+        fechaTermino: '',
         descripcion:''
     }
 ]
@@ -42,26 +44,26 @@ export const estudiosData = [
 export const proyectosData = [
     {
       id:1,
-      titulo:'',
-      descripcion:'',
-      imagen:'',
-      categoria:'',
-      tags:'',
+      titulo:'HomeCatalogue',
+      descripcion:'Desarrollo de Back-End de una tienda de articulos para el hogar.',
+      imagen:imagen_avy,
+      categoria:'Tienda de Articulos del Hogar',
+      tags:'Java, Spring Boot, Back-End',
     },
     {
         id:2,
-        titulo:'',
-        descripcion:'',
-        imagen:'',
-        categoria:'',
-        tags:'',
+        titulo:'PUMBA',
+        descripcion:'Desarrollo de back-End de una tienda de Zapatillas',
+        imagen: logoPUMBA3,
+        categoria:'Sitio para una Empresa de Zapatillas',
+        tags:'Java, MySQL, XAMPP',
     }
 ];
 
 
 export const redesData = {
-    linkedin:'',
-    github:'',
+    linkedin:'https://www.linkedin.com/in/nicolas-sobarzo-014a90335/?isSelfProfile=true',
+    github:'https://github.com/Nxcxlxs17',
     email:'nico.sobarzo@duocuc.cl'
 };
 

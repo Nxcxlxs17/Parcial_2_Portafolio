@@ -47,7 +47,12 @@ const ProyectosSeccion = ({ proyectos = [] }) => {
 
                                 {proyecto.tags && (
                                     <div style={{ marginBottom: '16px' }}>
-                                        {proyecto.tags.split(',').map((tag, index) => (
+                                        {(Array.isArray(proyecto.tags)
+                                            ? proyecto.tags
+                                            : typeof proyecto.tags === 'string'
+                                                ? proyecto.tags.split(',')
+                                                    : []
+                                        ).map((tag, index) => (
                                             <Tag color="blue" key={index} style={{ marginBottom: '4px' }}>
                                                 {tag.trim()}
                                             </Tag>

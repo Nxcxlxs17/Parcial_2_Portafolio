@@ -1,6 +1,7 @@
-import { Card, Form, Input, Button, message } from 'antd';
+import {Card, Form, Input, Button, message} from 'antd';
 import { MailOutlined, SendOutlined } from '@ant-design/icons';
 import TituloSeccion from '../atoms/TituloSeccion';
+
 
 const { TextArea } = Input;
 
