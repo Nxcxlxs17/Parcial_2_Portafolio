@@ -15,8 +15,6 @@ Presenta mi perfil profesional: datos personales, experiencia laboral, estudios,
 
 ```bash
 npm create vite@latest Parcial_2_Portafolio -- --template react
-cd Parcial_2_Portafolio
-npm install
 ```
 
 ## Instalar dependencias
