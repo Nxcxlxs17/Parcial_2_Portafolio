@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import {useState, useEffect, useCallback} from 'react';
 import {
     personalData,
     profesionalData,
@@ -16,8 +16,7 @@ export const usePortafolio = () => {
         social: null,
     });
 
-    useEffect(() => {
-        // eslint-disable-next-line react-hooks/set-state-in-effect
+    const cargarDatos = useCallback(() => {
         setData({
             personal: personalData,
             profesional: profesionalData,
@@ -27,5 +26,10 @@ export const usePortafolio = () => {
         });
     }, []);
 
-    return { data, setData};
+    useEffect(() => {
+        // eslint-disable-next-line react-hooks/set-state-in-effect
+        cargarDatos();
+    }, [cargarDatos]);
+
+    return { data };
 };

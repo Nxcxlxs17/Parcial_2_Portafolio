@@ -61,6 +61,7 @@ export const proyectosData = [
     {
       id:1,
       titulo:'HomeCatalogue',
+      github:'https://github.com/NicolaiX9/homecatalogue---moya---sobarzo---011D/tree/ExamBranch',
       descripcion:'Desarrollo de Back-End de una tienda de articulos para el hogar.',
       imagen:imagen_avy,
       categoria:'Tienda de Articulos del Hogar',
