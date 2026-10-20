@@ -6,7 +6,7 @@ import './App.css';
 import ExperienciaSeccion from "./Components/organisms/ExperienciaSeccion.jsx";
 import EstudiosSeccion from "./Components/organisms/EstudiosSeccion.jsx";
 import ProyectosSeccion from "./Components/organisms/ProyectosSeccion.jsx";
-import ContactoSeccion from "./Components/organisms/ContactoSeccion.jsx";
+import {ContactoSeccion} from "./Components/organisms/ContactoSeccion.jsx";
 
 const { Content, Footer } = Layout;
 

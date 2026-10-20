@@ -5,7 +5,7 @@ import TituloSeccion from '../atoms/TituloSeccion.jsx';
 
 const { TextArea } = Input;
 
-const ContactoSeccion = () => {
+export const ContactoSeccion = () => {
     const [form] = Form.useForm();
 
     const onFinish = () => {
@@ -56,4 +56,3 @@ const ContactoSeccion = () => {
     );
 };
 
-export default ContactoSeccion;
