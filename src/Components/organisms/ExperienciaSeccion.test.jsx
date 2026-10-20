@@ -38,7 +38,6 @@ describe('ExperienciaSeccion', () => {
             screen.getByText('Desarrollo de interfaces con React y Ant Design.')
         ).toBeInTheDocument();
 
-        // ASSERT: Verificamos los textos del segundo ítem
         expect(screen.getByText('Práctica Profesional')).toBeInTheDocument();
         expect(screen.getByText('Software Factory')).toBeInTheDocument();
         expect(screen.getByText('Marzo 2021 - Diciembre 2021')).toBeInTheDocument();
@@ -48,7 +47,6 @@ describe('ExperienciaSeccion', () => {
     });
 
     it('debe renderizar correctamente una experiencia aunque no contenga descripción', () => {
-        // ARRANGE: Ítem opcional sin el campo descripcion
         const profesionalMock = [
             {
                 id: 3,

@@ -62,6 +62,7 @@ Las pruebas cubren los átomos, la molécula `TarjetaProyecto`, los organismos p
 
 ```text
 src/
+├── assets/          Imágenes
 ├── Components/
 │   ├── atoms/       TituloSeccion, UsuarioAvatar
 │   ├── molecules/   TarjetaProyecto
@@ -71,7 +72,6 @@ src/
 ├── pages/           Home (arma las secciones del portafolio)
 ├── hooks/           usePortafolio
 ├── data/            portafolioData.js
-├── assets/          Imágenes
 ├── App.jsx
 └── main.jsx
 ```
@@ -90,7 +90,7 @@ src/
 
 ## Uso de IA
 
-Se utilizó inteligencia artificial como apoyo en detalles visuales (scroll suave y efectos en los botones del navbar), y finalmente en la revisión de la estructura del proyecto y en la redacción de pruebas.
+Se utilizó inteligencia artificial como apoyo en detalles visuales (scroll suave y efectos en los botones del navbar) Y resolviendo algunas de las dudas a las pruebas unitarias.
 
 ## Autor
 
